@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <title>William Amaya</title>
+
+
+  <!-- SEO -->
+  <meta property="og:image" content="https://williamamayag.github.io/WilliamAmayag/img/Perfilblanco.png" />
+  <meta property="og:title" content="William Amaya" />
+  <meta property="og:description" content="Simplificando lo complejo" />
+  <meta property="og:url" content="https://williamamayag.github.io/WilliamAmayag/" />
+  <meta property="og:type" content="website" />
+  
+</head>
+
+ <!-- Header -->
+ <section id="header">
+  <div class="header container">
+    <div class="nav-bar">
+      <div class="brand">
+      <a href="#hero"> <h1 class="logo"><img src="img/logo.svg" alt="logo"></h1>
+      </a>
+      </div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <ul>
+            <li><a data-lang="inicio" href="#hero" data-after="Home">Inicio</a></li>
+            <li><a data-lang="acercade" href="#about" data-after="About">Acerca de mí</a></li>
+            <li><a data-lang="proyetos" href="#projects" data-after="Projects">Proyectos</a></li>
+            <li><a data-lang="habilidades" href="#services" data-after="Service">Habilidades</a></li>
+            <li><a data-lang="contacto" href="#contact" data-after="Contact">Contacto</a></li>
+            <li><a data-lang="idioma" button id="langBtn" class="u-btn u-button-style u-btn-1" onclick="cambiarIdioma()" data-lang="languaje" data-opt="en">EN</button></a><li>
+          
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1 data-lang="pre1">Hola, <span></span></h1>
+        <h1 data-lang="pre2">Mi nombre es <span></span></h1>
+        <h1 data-lang="pre3">William Amaya<span></span></h1>
+        <p data-lang="pre4">Simplificando lo complejo</p>
+        <a href="https://www.linkedin.com/in/williamamayag/" target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:william_amayag@outlook.com" ><i class="fa-regular fa-envelope-open"></i></a>
+      
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+   <!-- About Section -->
+   <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="img/Perfilblanco.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title" data-lang="acercade2">Acerca de <span>mi</span></h1>
+        <h2 data-lang="presentacion1" >Estudiante de Ingeniería En Sistemas y Redes Informáticas</h2>
+        <p data-lang="presentacion2">
+          Soy un estudiante de Ingeniería En Sistemas y Redes Informáticas, interesado en la implementación y administración de redes de comunicaciones y sistemas informáticos y seguridad, soy aprendiz en el manejo de lenguajes de programación tales como Java, C#, y SQL, Cisco OS, lo que me permite desarrollar aplicaciones simples y funcionales. 
+          Tengo como meta especializarme en el diseño y configuración de sistemas de redes para empresas, incluyendo la implementación de soluciones de seguridad informática y monitoreo de redes.
+                  </p>
+ 
+        <a download data-lang="descargar" href="archivos/William Amaya.pdf" class="cta">Descargar CV</a>
+                  
+        
+        
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+
+   <!-- Projects Section -->
+   <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title" data-lang="proyectos">Proyectos <span>Recientes</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1 data-lang="proj1p1">Proyecto 1</h1>
+            <h2 data-lang="proj1p2">Animacion 3D</h2>
+            <p data-lang="proj1p3">Proyecto personal 3D de cortometraje animado creado en Blender</p>
+          </div>
+
+          <div class="video">
+          <video class="video-proyect" muted loop autoplay controls src="archivos/animacion.mp4"></video>
+          
+          </div>
+        </div>
+
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1 data-lang="proj2p1">Proyecto 2</h1>
+            <h2 data-lang="proj2p2">Autenticacion de sesión  con sensor de huella Android</h2>
+            <div style="width:800; height:300px; overflow-y: auto;"><br>
+              <script src="https://gist.github.com/WilliamAmayag/c894c50f04d308d88a1c6f0cb6aa2616.js"></script>
+              </div>
+          </div>
+          <div class="project-img">
+            <img src="img/android.png" alt="img">
+          </div>
+        </div>
+
+
+    
+        <div class="project-item">
+          <div class="project-info">
+            <h1 data-lang="proj3p1">Proyecto 3</h1>
+            <h2 data-lang="proj3p2">Base de datos relacional con SQLServer</h2>
+            <div style="width: 800px;; height:300px; overflow-y: auto;"><br>
+           <script src="https://gist.github.com/WilliamAmayag/2b38483796bb53cc2df1a6fbec1d112c.js"></script>
+              </div>
+          </div>
+          <div class="project-img">
+            <img src="img/facturacion.png" alt="img">
+          </div>
+        </div>
+
+
+          
+        <div class="project-item">
+          <div class="project-info">
+            <h1 data-lang="proj4p1">Proyecto 4</h1>
+            <h2 data-lang="proj4p2">Alquiler de películas desarrollado con CouchDB y Java en Android Studios</h2>
+            <div style="width: 800px;; height:300px; overflow-y: auto;"><br>
+           <script src="https://gist.github.com/WilliamAmayag/3870efbd1eb353bb5c24a347dac197ae.js"></script>      </div>
+          </div>
+          <div class="project-img">
+            <img src="img/renta de peliculas.png" alt="img">
+          </div>
+        </div>
+
+
+                
+        <div class="project-item">
+          <div class="project-info">
+            <h1 data-lang="proj5p1">Proyecto 5</h1>
+            <h2 data-lang="proj5p2">Aplicación para realizar votaciones nacionales desarrollado con CouchDB y Java en Android Studios</h2>
+            <div style="width: 800px;; height:300px; overflow-y: auto;"><br>
+           <script src="https://gist.github.com/WilliamAmayag/61e6523730df5118c33f78f192d2eb6e.js"></script>      </div>
+          </div>
+          <div class="project-img">
+            <img src="img/VotoFacil.png" alt="img">
+          </div>
+        </div>
+
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1 data-lang="proj6p1">Proyecto 6</h1>
+            <h2 data-lang="proj6p2">Ayudante QR para controlar asistencia de estudiantes desarrollado con PHP para Base de Datos en servidor y Java en Android Studios</h2>
+            <div style="width: 800px;; height:300px; overflow-y: auto;"><br>
+              <script src="https://gist.github.com/WilliamAmayag/7fec1d2d169ede7043e2bf7881b38c36.js"></script>   
+           </div>
+          </div>
+          <div class="project-img">
+            <img src="img/android.png" alt="img">
+          </div>
+        </div>
+
+
+        
+        <div class="project-item">
+          <div class="project-info">
+            <h1 data-lang="proj7p1">Proyecto 7</h1>
+            <h2 data-lang="proj7p2">Configuración de red básica IPV4, usando métodos estáticos y dinámicos</h2>
+            <div style="width: 800px;; height:300px; overflow-y: auto;"><br>
+          <p data-lang="proj7p3">Configuración básica de una red usando los métodos de siguiente salto, ruta resumen, ruta por defecto, interfaz de salida, RIP, EIGRP y OSPF
+            con direcciones IPV4.
+
+          </p>
+           </div>
+          </div>
+          <div class="project-img">
+            <img src="img/redes.png" alt="img">
+          </div>
+        </div>
+
+
+               
+        <div class="project-item">
+          <div class="project-info">
+            <h1 data-lang="proj8p1">Proyecto 8</h1>
+            <h2 data-lang="proj8p2">FellsGood</h2>
+            <div style="width: 800px;; height:300px; overflow-y: auto;"><br>
+          <p data-lang="proj8p3">La propuesta del proyecto consiste en desarrollar una inteligencia artificial capaz de analizar las emociones de las personas mientras chatean con ella, para poder recomendar actividades en función de su estado de ánimo.
+
+          </p>
+           </div>
+          </div>
+          <div class="project-img">
+            <img src="img/fellsgood.jpeg" alt="img">
+          </div>
+        </div>
+
+        
+      
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title" data-lang="habilidades2" ><span>H</span>abilidades</h1>
+        <p data-lang="quiensoy" >Soy un estudiante con capacidades sobre resolución de problemas, flexible al trabajo en equipo, lo que me permite el trabajo colaborativo con diferentes áreas y niveles de mi equipo.</p>
+    
+
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2 data-lang="habi1p1" >Diseño y creación en topologías de redes con IPV4</h2>
+          <p data-lang="habi1p2">Manejo de los fundamentos básicos en los protocolos de red, arquitectura y administración.
+            Enrutamientos estáticos con IPV4, siguiente salto, ruta resumen, ruta por defecto, interfaz de salida. 
+            Enrutamientos dinámicos con IPV4, RIP, EIGRP, OSPF, Protocolos de redundancia como STP, VPT, EthernetChannel.
+          </p>
+          
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2 data-lang="habi2p1">Manejo básico en lenguajes de programación:  Java, C#</h2>
+          <p data-lang="habi2p2">Manejo básico de los fundamentales de programación orientada a objetos, creación de clases, métodos y variables, y conexiones a bases de datos locales y servidores.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2 data-lang="habi3p1">Trabajo en equipo</h2>
+          <p data-lang="habi3p2">Trabajo profesional en equipo para desarrollar proyectos complejos, resolver problemas técnicos y alcanzar objetivos plasmados</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2 data-lang="habi4p1">Manejo básico de base de datos relacionales: MySQL, SQL Server, PostgreSQL, MariaDB</h2>
+          <p data-lang="habi4p2">Manejo básico de los fundamentales en bases de datos, como creación de tablas, campos, relaciones y administración como modificar, agregar, actualizar y eliminar datos en ellas.</p>
+        </div>
+      </div>
+    </div>
+
+    
+  </section>
+  <!-- End Service Section -->
+
+   
+
+
+ 
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 data-lang="contacto2" class="section-title"><span>Contacto</span></h1>
+      </div>
+      <div class="contact-item">
+        <div class="contact-info">
+        
+
+         <form id="form">
+           <div class="field">
+             <label for="from_name">Tu nombre</label>
+             <input type="text" name="from_name" id="from_name">
+           </div>
+           <div class="field">
+             <label for="to_name">Tu correo</label>
+             <input type="text" name="to_name" id="to_name">
+           </div>
+           <div class="field">
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" id="subject">
+          </div>
+           <div class="field">
+             <label for="message">Escribe un mensaje</label>
+             <textarea type="text" name="message" id="message"></textarea>
+           </div>
+           <input type="submit" id="button" value="Send Email" >
+         </form>
+
+       </div>
+       </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="iconcontac"><i class="fa-brands fa-linkedin"></i></div>
+          <div class="contact-info">
+            <h1> <a href="https://www.linkedin.com/in/williamamayag/" target="_blank"><p>Linkedin</p></a></h1>
+           <a href="https://www.linkedin.com/in/williamamayag/" target="_blank"><p>William Amaya</p></a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="iconcontac"><i class="fa-regular fa-envelope-open"></i> </div>
+          <div class="contact-info">
+            <h1><a href="mailto:william_amayag@outlook.com"><p data-lang="correomail">Correo</p></a></h1>
+            <a href="mailto:william_amayag@outlook.com"><p>william_amayag@outlook.com</p></a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="iconcontac"><i class="fa-brands fa-github"></i></div>
+          <div class="contact-info">
+            <h1><a href="https://github.com/williamamayag" target="_blank"><p>Github</p></a></h1>
+           <a href="https://github.com/williamamayag" target="_blank"><p>@williamamayag</p></a>
+          </div>
+        </div>
+      </div>
+
+    
+    </div>
+    
+  </section>
+
+
+
+  
+   
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>W</span>illiam <span>A</span>maya</h1>
+      </div>
+      <p>Copyright © 2023 William. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+  <script src="https://kit.fontawesome.com/fdf5bea571.js" crossorigin="anonymous"></script>
+
+  <script src="traductor.js"></script>
+
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('odGoNu_vWLKkje9w4')
+</script>
+<script>const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_aoxu1jg';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});</script>
+</body>
+</html>
